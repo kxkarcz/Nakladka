@@ -47,3 +47,15 @@ body
 	font-size: 30px;
 
 }
+#tresc .tytul
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 675px;
+	color: white;
+	font-size: 38px;
+	font-family: Lucida Console;
+	
+}
+
+
