@@ -119,4 +119,29 @@ body
         background-color:#DDD;
       }
       #tresc ol > li > ul > li:hover > a {
-        col
+        col}
+				
+#stopka
+{
+	background-color: #042f47;
+	position:absolute;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+}
+#stopka .fb
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 110px
+}
+
+#stopka p
+{
+	float: left;
+	margin-left: 200px;
+	margin-top: 25px;
+	font-family:Times New Roman;
+	font-size: 30px;
+
+}
