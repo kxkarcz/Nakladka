@@ -1,0 +1,49 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #0066cc;
+	color: white;
+	font-family: verdana;
+}
+
+#naglowek
+{
+	background-color:#042f47;
+	border-bottom: 10px solid white;
+	height: 60px;
+}
+
+#naglowek .slogan
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 650px;
+	color: #fff31a;
+	font-size: 32px;
+	font-family: Copperplate;
+}
+#stopka
+{
+	background-color: #042f47;
+	position:absolute;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+}
+#stopka .fb
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 110px
+}
+
+#stopka p
+{
+	float: left;
+	margin-left: 200px;
+	margin-top: 25px;
+	font-family:Times New Roman;
+	font-size: 30px;
+
+}
