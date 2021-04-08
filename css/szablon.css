@@ -28,7 +28,7 @@ body
 	background-color: #042f47;
 	position:absolute;
 	bottom: 0px;
-	height: 100px;
+	height: 150px;
 	width: 100%;
 }
 #stopka .fb
@@ -37,15 +37,24 @@ body
 	margin-top: 10px;
 	margin-left: 110px
 }
-
 #stopka p
 {
 	float: left;
-	margin-left: 200px;
+	margin-left: 150px;
 	margin-top: 25px;
 	font-family:Times New Roman;
 	font-size: 30px;
+		text-align:center;
 
+}
+#stopka h5
+{
+	float: left;
+	margin-left: 350px;
+	margin-top: -10px;
+	font-family:Courier New;
+	font-size: 15px;
+}
 }
 #tresc .tytul
 {
@@ -57,5 +66,22 @@ body
 	font-family: Lucida Console;
 	
 }
+#stopka .zwzt
+{
+	float: left;
+	margin-top: -85px;
+	margin-left: 40px;
+
+}
+#stopka a
+{
+color:#fff31a;
+}
+#naglowek .logo
+{
+	float: left;
+	margin-top: 3px;
+}
+	
 
 
