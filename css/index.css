@@ -5,45 +5,49 @@ body
 	background: #0066cc;
 	color: white;
 	font-family: verdana;
+	min-height:100%;
+	width:100%;
 }
 
 #naglowek
 {
 	background-color:#042f47;
 	border-bottom: 10px solid white;
-	height: 60px;
+	height: 70px;
+	width:100%;
+	position: relative;
 }
 
 #naglowek .slogan
 {
-	float: right;
-	margin-top: 15px;
-	margin-right: 650px;
+	padding:10px;
+	padding-bottom:60px;	
+			margin-top: 15px;
 	color: #fff31a;
-	font-size: 32px;
+		font-size: xx-large;
 	font-family: Copperplate;
-		text-align:center;
+	text-align:center;
+
 }
 #tresc
 {
-	margin-top: -380px;
 	margin-left:200px;
 	margin-right: 50px;
+	position:absolute;
+	margin-top: -20px;
+	height:140%;
+
 }
 #tresc p
 {
-	float: right;
-	margin-right: 250px;
-	margin-top: 100px;
-	font-family:Times New Roman;
-	font-size: 30px;
+
+
+	font-size: 25px;
 
 }
-#tresc .logo
+#naglowek .logo
 {
 	float: left;
-	margin-top: 50px;
-	margin-left: 110px
 }
 
 
@@ -51,27 +55,30 @@ body
 	list-style-type:none;
 	padding:0;
 	margin:10;
-	font-size:14px;
+	font-size:20px;
 	height:2em;
 	line-height:2em;
 	text-align:center;
-	margin-top:30px;
-	float: left;
+	margin-top:30x;
+
 	}
 
       /* wygl¹d wszystkich elementów - a - znajduj¹cych siê w elemencie - ol */
 #tresc ol a {
-        display:block;
-        text-decoration:none;
-        color:#000;
-        padding:0 0px;
+display:block;
+text-decoration:none;
+color:#000;
+padding:0 px;
+
       }
 
       /* wygl¹d elementów - li - wszystkich dzieci elementu - ol */
       #tresc ol > li {
         float:left;
-        width:200px;
-        margin-left:1px;
+        width:500px;
+				margin-top:10px;
+        margin-left:0px;
+				margin-right:10px;
         background-color:#FDD700;
         height:2em;
       }
@@ -119,50 +126,51 @@ body
       #tresc ol > li > ul > li:hover {
         background-color:#DDD;
       }
-      #tresc ol > li > ul > li:hover > a {
-        col}
-				
+      /*#tresc ol > li > ul > li:hover > a 
+			{
+        col;
+				}*/
+	
+	
 #stopka
 {
-	background-color: #042f47;
-	position:absolute;
-	bottom: 0px;
-	height: 150px;
+	background: #042f47;
+ 	position:absolute;
+	bottom: -390px;
+	height: 200px;
 	width: 100%;
-}
+		}
+
+
 #stopka .fb
 {
-	float: left;
+
 	margin-top: 30px;
-	margin-left: 110px
+
+}
+#stopka h5
+{
+	float: right;
+	font-family:Courier New;
+	font-size: 15px;
+	margin-bottom:10px;
+	margin-right:200px;
 }
 
 #stopka p
 {
 	float: left;
-	margin-left: 150px;
-	margin-top: 25px;
+
+	margin-top: 10px;
 	font-family:Times New Roman;
-	font-size: 30px;
-		text-align:center;
+	font-size: 20px;
+	text-align:center;
+	margin-left:200px;
 
 }
-#stopka h5
-{
-	float: left;
-	margin-left: 355px;
-	margin-top: -10px;
-	font-family:Courier New;
-	font-size: 15px;
-}
 
-#stopka .zwzt
-{
-	float: left;
-	margin-top: -85px;
-	margin-left: 40px;
 
-}
+
 #stopka a
 {
 color:#fff31a;
