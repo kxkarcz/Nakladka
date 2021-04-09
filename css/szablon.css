@@ -5,23 +5,32 @@ body
 	background: #0066cc;
 	color: white;
 	font-family: verdana;
+	min-height:100%;
+	width:100%;
 }
 
 #naglowek
 {
 	background-color:#042f47;
 	border-bottom: 10px solid white;
-	height: 60px;
+	height: 70px;
+	width:100%;
+	position: relative;
 }
-
+#naglowek .logo
+{
+	float: left;
+}
 #naglowek .slogan
 {
-	float: right;
-	margin-top: 15px;
-	margin-right: 650px;
+	padding:10px;
+	padding-bottom:60px;	
+			margin-top: 15px;
 	color: #fff31a;
-	font-size: 32px;
+		font-size: xx-large;
 	font-family: Copperplate;
+	text-align:center;
+
 }
 #stopka
 {
